@@ -1,0 +1,19 @@
+<!--Crea un contador que ba aumentando de uno en uno a presionar el botón-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <input type="number" id="contador" value="0" disable>
+        <button onclick="incrementar()">Pulsa el botón</button>
+
+    <script>
+        function incrementar()
+        {
+            const contador = document.getElementById("contador");
+            contador.value++;
+        }
+    </script>
+    </body>
+</html>
